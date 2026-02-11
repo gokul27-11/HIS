@@ -1,0 +1,14 @@
+# Database data (Never commit actual DB files)
+infrastructure/postgres/data/
+
+# Secrets
+.env
+*.pem
+
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+
+# Large clinical datasets
+data/synthetic/*.json
